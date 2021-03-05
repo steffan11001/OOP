@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="453.9842243112866" y="684.0">PaooGame.States.State</node>
+    <node x="1029.172802884816" y="347.0">PaooGame.Items.Naruto</node>
+    <node x="1241.3165961061584" y="942.0">PaooGame.Game</node>
+    <node x="1179.1080363810938" y="575.0">PaooGame.RefLinks</node>
+    <node x="1201.06188253494" y="79.0">PaooGame.Items.Item</node>
+    <node x="533.6927452401962" y="79.0">PaooGame.Graphics.Assets</node>
+    <node x="1158.1311362181495" y="347.0">PaooGame.Items.ItemsManager</node>
+    <node x="14.299999999999955" y="803.0">PaooGame.States.PlayState</node>
+    <node x="1575.6704422600046" y="803.0">PaooGame.GameWindow.GameWindow</node>
+    <node x="573.3177452401964" y="0.0">PaooGame.Graphics.SpriteSheet</node>
+    <node x="387.1967243112866" y="198.0">PaooGame.Tiles.WaterTile</node>
+    <node x="407.2342243112866" y="803.0">PaooGame.States.AboutState</node>
+    <node x="1337.6204422600047" y="456.0">PaooGame.Input.KeyManager</node>
+    <node x="971.989858078814" y="456.0">PaooGame.Maps.Map</node>
+    <node x="275.23422431128665" y="803.0">PaooGame.States.MenuState</node>
+    <node x="101.19672431128652" y="198.0">PaooGame.Tiles.GrassTile</node>
+    <node x="922.1967243112866" y="198.0">PaooGame.Graphics.Animation</node>
+    <node x="426.31774524019636" y="0.0">PaooGame.Graphics.ImageLoader</node>
+    <node x="405.1967243112866" y="347.0">PaooGame.Tiles.Tile</node>
+    <node x="737.0910485550045" y="803.0">PaooGame.States.SettingsState</node>
+    <node x="1117.2550576446201" y="198.0">PaooGame.Items.Character</node>
+    <node x="644.1967243112865" y="198.0">PaooGame.Tiles.TreeTile</node>
+    <node x="519.1967243112865" y="198.0">PaooGame.Tiles.SoilTile</node>
+    <node x="233.19672431128652" y="198.0">PaooGame.Tiles.MountainTile</node>
+    <node x="904.6967243112866" y="347.0">PaooGame.Items.Sasuke</node>
+    <node x="1241.3165961061584" y="1021.0">PaooGame.Main</node>
+    <node x="1477.6204422600047" y="456.0">PaooGame.Input.MouseManager</node>
+    <node x="770.1967243112865" y="198.0">PaooGame.Tiles.BackGround</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="PaooGame.Game" target="PaooGame.RefLinks">
+      <point x="1.900000000000091" y="-14.5" />
+      <point x="1281.2165961061585" y="634.0" />
+      <point x="1268.3580363810938" y="634.0" />
+      <point x="36.75" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.Tile" target="PaooGame.Tiles.SoilTile">
+      <point x="10.133333333333326" y="-14.5" />
+      <point x="453.3300576446199" y="277.0" />
+      <point x="536.6967243112865" y="277.0" />
+      <point x="-35.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Items.Naruto" target="PaooGame.Graphics.Assets">
+      <point x="-7.5833333333332575" y="-14.5" />
+      <point x="1067.089469551483" y="247.0" />
+      <point x="1053.6133909779533" y="247.0" />
+      <point x="1053.6133909779533" y="138.0" />
+      <point x="620.5563816038327" y="138.0" />
+      <point x="41.363636363636374" y="14.5" />
+    </edge>
+    <edge source="PaooGame.RefLinks" target="PaooGame.Input.MouseManager">
+      <point x="48.46153846153857" y="-14.5" />
+      <point x="1280.0695748426324" y="555.0" />
+      <point x="1494.3704422600047" y="555.0" />
+      <point x="-50.25" y="14.5" />
+    </edge>
+    <edge source="PaooGame.States.AboutState" target="PaooGame.States.State">
+      <point x="5.6843418860808015E-14" y="-14.5" />
+      <point x="467.23422431128665" y="783.0" />
+      <point x="491.7842243112866" y="783.0" />
+      <point x="-4.199999999999989" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Maps.Map" target="PaooGame.Items.ItemsManager">
+      <point x="19.714285714285666" y="-14.5" />
+      <point x="1026.2041437930998" y="426.0" />
+      <point x="1198.3311362181496" y="426.0" />
+      <point x="-26.799999999999955" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.SoilTile" target="PaooGame.Graphics.Assets">
+      <point x="0.0" y="-14.5" />
+      <point x="571.6967243112865" y="178.0" />
+      <point x="579.1927452401962" y="178.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Items.Item" target="PaooGame.RefLinks">
+      <point x="33.25" y="14.5" />
+      <point x="1272.31188253494" y="138.0" />
+      <point x="1327.1204422600047" y="138.0" />
+      <point x="1327.1204422600047" y="535.0" />
+      <point x="1263.9157286887862" y="535.0" />
+      <point x="32.30769230769238" y="-14.5" />
+    </edge>
+    <edge source="PaooGame.Main" target="PaooGame.Game">
+      <point x="-19.0" y="-14.5" />
+      <point x="-19.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.GameWindow.GameWindow">
+      <point x="32.299999999999955" y="-14.5" />
+      <point x="1311.6165961061583" y="912.0" />
+      <point x="1605.6704422600046" y="912.0" />
+      <point x="-30.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.WaterTile" target="PaooGame.Graphics.Assets">
+      <point x="0.0" y="-14.5" />
+      <point x="443.1967243112866" y="168.0" />
+      <point x="570.920017967469" y="168.0" />
+      <point x="-8.272727272727252" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.States.PlayState">
+      <point x="-28.5" y="-14.5" />
+      <point x="1250.8165961061584" y="902.0" />
+      <point x="70.29999999999995" y="902.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.States.SettingsState" target="PaooGame.States.State">
+      <point x="-52.875" y="-14.5" />
+      <point x="754.7160485550045" y="753.0" />
+      <point x="525.3842243112865" y="753.0" />
+      <point x="29.399999999999977" y="14.5" />
+    </edge>
+    <edge source="PaooGame.States.SettingsState" target="PaooGame.Graphics.Assets">
+      <point x="17.625" y="-14.5" />
+      <point x="825.2160485550045" y="733.0" />
+      <point x="759.6967243112865" y="733.0" />
+      <point x="759.6967243112865" y="168.0" />
+      <point x="595.7381997856507" y="168.0" />
+      <point x="16.545454545454504" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Items.Naruto" target="PaooGame.Items.Character">
+      <point x="7.5833333333332575" y="-14.5" />
+      <point x="1082.2561362181495" y="297.0" />
+      <point x="1173.2550576446201" y="297.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.States.PlayState" target="PaooGame.RefLinks">
+      <point x="0.0" y="-14.5" />
+      <point x="70.29999999999995" y="783.0" />
+      <point x="58.89999999999998" y="783.0" />
+      <point x="58.89999999999998" y="624.0" />
+      <point x="1184.3580363810938" y="624.0" />
+      <point x="-47.25" y="14.5" />
+    </edge>
+    <edge source="PaooGame.States.MenuState" target="PaooGame.States.State">
+      <point x="14.0" y="-14.5" />
+      <point x="345.23422431128665" y="763.0" />
+      <point x="474.9842243112866" y="763.0" />
+      <point x="-21.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Maps.Map" target="PaooGame.Items.Naruto">
+      <point x="0.0" y="-14.5" />
+      <point x="1006.489858078814" y="406.0" />
+      <point x="1051.922802884816" y="406.0" />
+      <point x="-22.75" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.MountainTile" target="PaooGame.Tiles.Tile">
+      <point x="0.0" y="14.5" />
+      <point x="300.1967243112865" y="287.0" />
+      <point x="427.9967243112866" y="287.0" />
+      <point x="-15.199999999999989" y="-14.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.States.AboutState">
+      <point x="-20.90000000000009" y="-14.5" />
+      <point x="1258.4165961061583" y="882.0" />
+      <point x="467.2342243112866" y="882.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Items.Sasuke" target="PaooGame.Items.Character">
+      <point x="37.91666666666674" y="-14.5" />
+      <point x="988.1133909779534" y="287.0" />
+      <point x="1150.85505764462" y="287.0" />
+      <point x="-22.40000000000009" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Items.Naruto" target="PaooGame.Graphics.Animation">
+      <point x="-37.91666666666674" y="-14.5" />
+      <point x="1036.7561362181495" y="267.0" />
+      <point x="992.1967243112866" y="267.0" />
+      <point x="14.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.GrassTile" target="PaooGame.Graphics.Assets">
+      <point x="0.0" y="-14.5" />
+      <point x="157.19672431128652" y="148.0" />
+      <point x="554.3745634220145" y="148.0" />
+      <point x="-24.81818181818187" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Items.ItemsManager" target="PaooGame.RefLinks">
+      <point x="26.799999999999955" y="14.5" />
+      <point x="1251.9311362181495" y="426.0" />
+      <point x="1231.6080363810938" y="426.0" />
+      <point x="0.0" y="-14.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.States.MenuState">
+      <point x="-24.700000000000045" y="-14.5" />
+      <point x="1254.6165961061583" y="892.0" />
+      <point x="331.23422431128665" y="892.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.States.SettingsState">
+      <point x="-9.5" y="-14.5" />
+      <point x="1269.8165961061584" y="852.0" />
+      <point x="807.5910485550045" y="852.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.TreeTile" target="PaooGame.Graphics.Assets">
+      <point x="0.0" y="-14.5" />
+      <point x="696.6967243112865" y="178.0" />
+      <point x="587.4654725129235" y="178.0" />
+      <point x="8.272727272727252" y="14.5" />
+    </edge>
+    <edge source="PaooGame.States.MenuState" target="PaooGame.Graphics.Assets">
+      <point x="-42.0" y="-14.5" />
+      <point x="289.23422431128665" y="733.0" />
+      <point x="90.69672431128652" y="733.0" />
+      <point x="90.69672431128652" y="138.0" />
+      <point x="546.1018361492872" y="138.0" />
+      <point x="-33.09090909090912" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.SoilTile" target="PaooGame.Tiles.Tile">
+      <point x="0.0" y="14.5" />
+      <point x="571.6967243112865" y="287.0" />
+      <point x="458.39672431128656" y="287.0" />
+      <point x="15.199999999999989" y="-14.5" />
+    </edge>
+    <edge source="PaooGame.RefLinks" target="PaooGame.Maps.Map">
+      <point x="-48.46153846153857" y="-14.5" />
+      <point x="1183.1464979195553" y="555.0" />
+      <point x="1000.739858078814" y="555.0" />
+      <point x="-5.75" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.GrassTile" target="PaooGame.Tiles.Tile">
+      <point x="37.33333333333337" y="14.5" />
+      <point x="194.5300576446199" y="307.0" />
+      <point x="417.8633909779532" y="307.0" />
+      <point x="-25.33333333333337" y="-14.5" />
+    </edge>
+    <edge source="PaooGame.Graphics.Assets" target="PaooGame.Graphics.SpriteSheet">
+      <point x="30.33333333333337" y="-14.5" />
+      <point x="609.5260785735297" y="59.0" />
+      <point x="668.5677452401964" y="59.0" />
+      <point x="31.75" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Items.Sasuke" target="PaooGame.Graphics.Assets">
+      <point x="-37.91666666666674" y="-14.5" />
+      <point x="912.2800576446199" y="327.0" />
+      <point x="900.6967243112865" y="327.0" />
+      <point x="900.6967243112865" y="148.0" />
+      <point x="612.2836543311055" y="148.0" />
+      <point x="33.09090909090912" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Items.Naruto" target="PaooGame.Items.Item">
+      <point x="37.91666666666674" y="-14.5" />
+      <point x="1112.589469551483" y="317.0" />
+      <point x="1239.7550576446201" y="317.0" />
+      <point x="1239.7550576446201" y="178.0" />
+      <point x="1234.31188253494" y="178.0" />
+      <point x="-4.75" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Maps.Map" target="PaooGame.Tiles.Tile">
+      <point x="-29.571428571428555" y="-14.5" />
+      <point x="976.9184295073854" y="436.0" />
+      <point x="462.1967243112866" y="436.0" />
+      <point x="19.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Graphics.Assets" target="PaooGame.Graphics.ImageLoader">
+      <point x="-30.33333333333337" y="-14.5" />
+      <point x="548.859411906863" y="59.0" />
+      <point x="489.81774524019636" y="59.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.MountainTile" target="PaooGame.Graphics.Assets">
+      <point x="0.0" y="-14.5" />
+      <point x="300.1967243112865" y="158.0" />
+      <point x="562.6472906947417" y="158.0" />
+      <point x="-16.545454545454504" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.Tile" target="PaooGame.Tiles.TreeTile">
+      <point x="25.333333333333314" y="-14.5" />
+      <point x="468.5300576446199" y="307.0" />
+      <point x="661.6967243112865" y="307.0" />
+      <point x="-35.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Items.Sasuke" target="PaooGame.Items.Item">
+      <point x="-22.75" y="-14.5" />
+      <point x="927.4467243112866" y="317.0" />
+      <point x="911.6967243112865" y="317.0" />
+      <point x="911.6967243112865" y="158.0" />
+      <point x="1205.81188253494" y="158.0" />
+      <point x="-33.25" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.Tile" target="PaooGame.Tiles.MountainTile">
+      <point x="-20.26666666666671" y="-14.5" />
+      <point x="422.93005764461986" y="297.0" />
+      <point x="255.5300576446199" y="297.0" />
+      <point x="-44.66666666666666" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.Tile" target="PaooGame.Tiles.GrassTile">
+      <point x="-35.4666666666667" y="-14.5" />
+      <point x="407.7300576446199" y="327.0" />
+      <point x="119.86339097795315" y="327.0" />
+      <point x="-37.33333333333337" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.WaterTile" target="PaooGame.Tiles.Tile">
+      <point x="37.333333333333314" y="14.5" />
+      <point x="480.5300576446199" y="267.0" />
+      <point x="448.26339097795324" y="267.0" />
+      <point x="5.066666666666663" y="-14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.TreeTile" target="PaooGame.Tiles.Tile">
+      <point x="35.0" y="14.5" />
+      <point x="731.6967243112865" y="327.0" />
+      <point x="478.6633909779532" y="327.0" />
+      <point x="35.46666666666664" y="-14.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.Graphics.Assets">
+      <point x="-36.09999999999991" y="-14.5" />
+      <point x="1243.2165961061585" y="922.0" />
+      <point x="0.0" y="922.0" />
+      <point x="0.0" y="128.0" />
+      <point x="537.82910887656" y="128.0" />
+      <point x="-41.363636363636374" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Items.Naruto" target="PaooGame.RefLinks">
+      <point x="22.75" y="14.5" />
+      <point x="1097.422802884816" y="406.0" />
+      <point x="1144.254510093466" y="406.0" />
+      <point x="1144.254510093466" y="505.0" />
+      <point x="1223.5311133041707" y="505.0" />
+      <point x="-8.076923076923094" y="-14.5" />
+    </edge>
+    <edge source="PaooGame.Items.ItemsManager" target="PaooGame.Items.Item">
+      <point x="-33.5" y="-14.5" />
+      <point x="1191.6311362181495" y="327.0" />
+      <point x="1249.2550576446201" y="327.0" />
+      <point x="1249.2550576446201" y="168.0" />
+      <point x="1243.81188253494" y="168.0" />
+      <point x="4.75" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.Tile" target="PaooGame.Tiles.WaterTile">
+      <point x="-5.066666666666663" y="-14.5" />
+      <point x="438.1300576446199" y="267.0" />
+      <point x="405.86339097795326" y="267.0" />
+      <point x="-37.333333333333314" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.Input.KeyManager">
+      <point x="9.5" y="-14.5" />
+      <point x="1288.8165961061584" y="852.0" />
+      <point x="1408.8204422600047" y="852.0" />
+      <point x="1408.8204422600047" y="545.0" />
+      <point x="1382.6204422600047" y="545.0" />
+      <point x="-15.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.RefLinks" target="PaooGame.Input.KeyManager">
+      <point x="40.38461538461547" y="-14.5" />
+      <point x="1271.9926517657093" y="545.0" />
+      <point x="1352.6204422600047" y="545.0" />
+      <point x="-45.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.States.State">
+      <point x="-13.299999999999955" y="-14.5" />
+      <point x="1266.0165961061584" y="862.0" />
+      <point x="541.5342243112866" y="862.0" />
+      <point x="541.5342243112866" y="763.0" />
+      <point x="516.9842243112867" y="763.0" />
+      <point x="21.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.States.AboutState" target="PaooGame.RefLinks">
+      <point x="-39.99999999999994" y="-14.5" />
+      <point x="427.23422431128665" y="733.0" />
+      <point x="438.23750000000007" y="733.0" />
+      <point x="438.23750000000007" y="644.0" />
+      <point x="1205.3580363810938" y="644.0" />
+      <point x="-26.25" y="14.5" />
+    </edge>
+    <edge source="PaooGame.States.PlayState" target="PaooGame.States.State">
+      <point x="44.8" y="-14.5" />
+      <point x="115.09999999999991" y="753.0" />
+      <point x="466.5842243112866" y="753.0" />
+      <point x="-29.399999999999977" y="14.5" />
+    </edge>
+    <edge source="PaooGame.States.SettingsState" target="PaooGame.RefLinks">
+      <point x="52.875" y="-14.5" />
+      <point x="860.4660485550045" y="783.0" />
+      <point x="1246.9080363810938" y="783.0" />
+      <point x="1246.9080363810938" y="664.0" />
+      <point x="1236.8580363810938" y="664.0" />
+      <point x="5.25" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Maps.Map" target="PaooGame.Tiles.BackGround">
+      <point x="-19.714285714285666" y="-14.5" />
+      <point x="986.7755723645283" y="426.0" />
+      <point x="830.1967243112865" y="426.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Items.Character" target="PaooGame.RefLinks">
+      <point x="44.799999999999955" y="14.5" />
+      <point x="1218.0550576446199" y="307.0" />
+      <point x="1302.6311362181495" y="307.0" />
+      <point x="1302.6311362181495" y="515.0" />
+      <point x="1247.76188253494" y="515.0" />
+      <point x="16.15384615384619" y="-14.5" />
+    </edge>
+    <edge source="PaooGame.Tiles.BackGround" target="PaooGame.Graphics.Assets">
+      <point x="0.0" y="-14.5" />
+      <point x="830.1967243112865" y="158.0" />
+      <point x="604.0109270583782" y="158.0" />
+      <point x="24.81818181818187" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.Tiles.Tile">
+      <point x="-32.299999999999955" y="-14.5" />
+      <point x="1247.0165961061584" y="912.0" />
+      <point x="3.7999999999999545" y="912.0" />
+      <point x="3.7999999999999545" y="436.0" />
+      <point x="424.1967243112866" y="436.0" />
+      <point x="-19.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.States.MenuState" target="PaooGame.RefLinks">
+      <point x="-14.0" y="-14.5" />
+      <point x="317.23422431128665" y="634.0" />
+      <point x="1194.8580363810938" y="634.0" />
+      <point x="-36.75" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Items.Sasuke" target="PaooGame.RefLinks">
+      <point x="22.75" y="14.5" />
+      <point x="972.9467243112866" y="396.0" />
+      <point x="1084.7160485550046" y="396.0" />
+      <point x="1084.7160485550046" y="515.0" />
+      <point x="1215.4541902272476" y="515.0" />
+      <point x="-16.15384615384619" y="-14.5" />
+    </edge>
+    <edge source="PaooGame.Items.Character" target="PaooGame.Items.Item">
+      <point x="-28.0" y="-14.5" />
+      <point x="1145.2550576446201" y="168.0" />
+      <point x="1215.31188253494" y="168.0" />
+      <point x="-23.75" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Maps.Map" target="PaooGame.RefLinks">
+      <point x="28.75" y="14.5" />
+      <point x="1035.239858078814" y="525.0" />
+      <point x="1207.3772671503245" y="525.0" />
+      <point x="-24.230769230769283" y="-14.5" />
+    </edge>
+    <edge source="PaooGame.Items.Sasuke" target="PaooGame.Graphics.Animation">
+      <point x="7.5833333333332575" y="-14.5" />
+      <point x="957.7800576446199" y="327.0" />
+      <point x="964.1967243112866" y="327.0" />
+      <point x="-14.0" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Maps.Map" target="PaooGame.Items.Sasuke">
+      <point x="-9.85714285714289" y="-14.5" />
+      <point x="996.6327152216711" y="416.0" />
+      <point x="927.4467243112866" y="416.0" />
+      <point x="-22.75" y="14.5" />
+    </edge>
+    <edge source="PaooGame.RefLinks" target="PaooGame.Game">
+      <point x="26.25" y="14.5" />
+      <point x="1257.8580363810938" y="644.0" />
+      <point x="1277.4165961061583" y="644.0" />
+      <point x="-1.900000000000091" y="-14.5" />
+    </edge>
+    <edge source="PaooGame.States.State" target="PaooGame.RefLinks">
+      <point x="-21.0" y="-14.5" />
+      <point x="474.9842243112866" y="654.0" />
+      <point x="1215.8580363810938" y="654.0" />
+      <point x="-15.75" y="14.5" />
+    </edge>
+    <edge source="PaooGame.Game" target="PaooGame.Input.MouseManager">
+      <point x="28.5" y="-14.5" />
+      <point x="1307.8165961061584" y="902.0" />
+      <point x="1565.1704422600046" y="902.0" />
+      <point x="1565.1704422600046" y="555.0" />
+      <point x="1594.8704422600047" y="555.0" />
+      <point x="50.25" y="14.5" />
+    </edge>
+    <edge source="PaooGame.States.PlayState" target="PaooGame.Maps.Map">
+      <point x="-44.799999999999955" y="-14.5" />
+      <point x="25.5" y="783.0" />
+      <point x="36.89999999999998" y="783.0" />
+      <point x="36.89999999999998" y="545.0" />
+      <point x="977.739858078814" y="545.0" />
+      <point x="-28.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4121495327102804" x="848.0" y="525.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
